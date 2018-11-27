@@ -9,7 +9,7 @@ public class Bandeau {
 
         if (mirrorbandau < nbbandeau){mirrorbandau +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de bandeaux");
         }
     }
@@ -17,7 +17,7 @@ public class Bandeau {
     public void RetraitBandeau(){
 
         if (mirrorbandau > 0){mirrorbandau -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de bandeaux");
         }
     }

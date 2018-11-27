@@ -9,7 +9,7 @@ public class Talkie {
 
         if (mirrortalkie < nbtalkie){mirrortalkie +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de talkies walkies");
         }
     }
@@ -17,7 +17,7 @@ public class Talkie {
     public void RetraitTalkie(){
 
         if (mirrortalkie > 0){mirrortalkie -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de talkies walkies");
         }
     }

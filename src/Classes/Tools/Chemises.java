@@ -9,7 +9,7 @@ public class Chemises {
 
         if (mirrorchemise < nbchemise){mirrorchemise +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de chemises");
         }
     }
@@ -17,7 +17,7 @@ public class Chemises {
     public void RetraitChemise(){
 
         if (mirrorchemise > 0){mirrorchemise -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de chemises");
         }
     }

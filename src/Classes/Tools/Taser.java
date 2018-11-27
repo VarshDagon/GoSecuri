@@ -8,8 +8,7 @@ public class Taser {
     public void AjoutTaser(){
 
         if (mirrortaser < nbtaser){mirrortaser +=1;}
-
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de tasers");
         }
     }
@@ -17,7 +16,7 @@ public class Taser {
     public void RetraitTaser(){
 
         if (mirrortaser > 0){mirrortaser -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de tasers");
         }
     }

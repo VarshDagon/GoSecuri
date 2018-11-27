@@ -9,7 +9,7 @@ public class Mousquetons {
 
         if (mirrormousqueton < nbmousqueton){mirrormousqueton +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de mousquetaires");
         }
     }
@@ -17,7 +17,7 @@ public class Mousquetons {
     public void RetraitMousqueton(){
 
         if (mirrormousqueton > 0){mirrormousqueton -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de mousquetaires");
         }
     }

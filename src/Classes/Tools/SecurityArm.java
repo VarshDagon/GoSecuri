@@ -9,7 +9,7 @@ public class SecurityArm {
 
         if (mirrorsecurebrassard < nbsecurebrassard){mirrorsecurebrassard +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de brassards de sécurité");
         }
     }
@@ -17,7 +17,7 @@ public class SecurityArm {
     public void RetraitSecureBrassard(){
 
         if (mirrorsecurebrassard > 0){mirrorsecurebrassard -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de brassards de sécurité");
         }
     }

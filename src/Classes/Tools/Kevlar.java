@@ -9,7 +9,7 @@ public class Kevlar {
 
         if (mirrorkevlar < nbkevlar){mirrorkevlar +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de kevlar");
         }
     }
@@ -17,7 +17,7 @@ public class Kevlar {
     public void RetraitKevlar(){
 
         if (mirrorkevlar > 0){mirrorkevlar -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de kevlar");
         }
     }

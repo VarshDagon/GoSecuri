@@ -9,7 +9,7 @@ public class FlashLight {
 
         if (mirrorflashlight < nbflashlight){mirrorflashlight +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de lampes à huile");
         }
     }
@@ -17,7 +17,7 @@ public class FlashLight {
     public void RetraitFlashLight(){
 
         if (mirrorflashlight > 0){mirrorflashlight -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de lampe à huile");
         }
     }

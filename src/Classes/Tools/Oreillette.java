@@ -9,7 +9,7 @@ public class Oreillette {
 
         if (mirrororeillette < nboreillette){mirrororeillette +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum d'oreillettes");
         }
     }
@@ -17,7 +17,7 @@ public class Oreillette {
     public void RetraitOreillette(){
 
         if (mirrororeillette > 0){mirrororeillette -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum d'oreillettes");
         }
     }

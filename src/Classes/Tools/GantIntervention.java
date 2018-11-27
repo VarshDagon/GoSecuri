@@ -9,7 +9,7 @@ public class GantIntervention {
 
         if (mirrorgatinter < nbgantinter){mirrorgatinter +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de gants d'intervention chirurgicale");
         }
     }
@@ -17,7 +17,7 @@ public class GantIntervention {
     public void RetraitGant(){
 
         if (mirrorgatinter > 0){mirrorgatinter -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de gants d'intervention chirurgicale");
         }
     }

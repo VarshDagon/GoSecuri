@@ -9,7 +9,7 @@ public class Windcoat {
 
         if (mirrorwindcoat < nbwindcoat){mirrorwindcoat +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de coupe-vent");
         }
     }
@@ -17,7 +17,7 @@ public class Windcoat {
     public void RetraitWindCoat(){
 
         if (mirrorwindcoat > 0){mirrorwindcoat -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de coupe-vent");
         }
     }

@@ -9,7 +9,7 @@ public class CeintureIntervention {
 
         if (mirrorceintureTactique < nbceintureTactique){mirrorceintureTactique +=1;}
 
-        else(){
+        else{
             System.out.println("Erreur sur le nombre maximum de ceintures tactiques");
         }
     }
@@ -17,7 +17,7 @@ public class CeintureIntervention {
     public void RetraitCeinture(){
 
         if (mirrorceintureTactique > 0){mirrorceintureTactique -=1;}
-        else(){
+        else{
             System.out.println("Erreur sur le nombre minimum de ceintures tactiques");
         }
     }
