@@ -2,20 +2,20 @@ package Classes;
 
 public class Inventory {
 
-    int mousquetons = 15;
-    int gantinter = 10;
-    int ceintureTactiques = 20;
-    int metauxdetector = 25;
-    int securebrassards = 30;
-    int flashlight = 5;
-    int bandeaux = 5;
-    int kevlar = 12;
-    int chemises = 30;
-    int blousons = 30;
-    int windcoat = 30;
-    int talkies = 20;
-    int oreillettes = 10;
-    int tasers = 5;
+    private boolean mousquetons;
+    private boolean gantinter;
+    private boolean ceintureTactiques;
+    private boolean metauxdetector;
+    private boolean securebrassards;
+    private boolean flashlight;
+    private boolean bandeaux;
+    private boolean kevlar;
+    private boolean chemises;
+    private boolean blousons;
+    private boolean windcoat;
+    private boolean talkies;
+    private boolean oreillettes;
+    private boolean tasers;
 
     void compteur (){
 
