@@ -16,4 +16,8 @@ public class Inventory {
     int talkies = 20;
     int oreillettes = 10;
     int tasers = 5;
+
+    void compteur (){
+
+    }
 }
