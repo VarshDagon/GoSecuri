@@ -16,8 +16,4 @@ public class Inventory {
     private boolean talkies;
     private boolean oreillettes;
     private boolean tasers;
-
-    void compteur (){
-
-    }
 }
