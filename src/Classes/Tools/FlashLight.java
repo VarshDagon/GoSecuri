@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class FlashLight {
 
-    private static int nbflashlight = 5;
-    private int mirrorflashlight = nbflashlight;
+    private final static int nbflashlight = 5;
+    private static int mirrorflashlight = nbflashlight;
 
     public void AjoutFlashLight(){
 

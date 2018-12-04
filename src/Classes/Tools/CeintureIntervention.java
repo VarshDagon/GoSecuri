@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class CeintureIntervention {
 
-    private static int nbceintureTactique = 20;
-    private int mirrorceintureTactique = nbceintureTactique;
+    private final static int nbceintureTactique = 20;
+    private static int mirrorceintureTactique = nbceintureTactique;
 
     public void AjoutCeinture(){
 

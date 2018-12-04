@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class GantIntervention {
 
-    private static int nbgantinter = 10;
-    private int mirrorgatinter = nbgantinter;
+    private final static int nbgantinter = 10;
+    private static int mirrorgatinter = nbgantinter;
 
     public void AjoutGant(){
 

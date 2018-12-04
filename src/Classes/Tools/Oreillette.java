@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class Oreillette {
 
-    private static int nboreillette = 10;
-    private int mirrororeillette = nboreillette;
+    private final static int nboreillette = 10;
+    private static int mirrororeillette = nboreillette;
 
     public void AjoutOreillette(){
 

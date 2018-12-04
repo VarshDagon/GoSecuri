@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class Bandeau {
 
-    private static int nbbandeau = 5;
-    private int mirrorbandau = nbbandeau;
+    private final static int nbbandeau = 5;
+    private static int mirrorbandau = nbbandeau;
 
     public void AjoutBandeau(){
 

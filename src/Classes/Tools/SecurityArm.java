@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class SecurityArm {
 
-    private static int nbsecurebrassard = 30;
-    private int mirrorsecurebrassard = nbsecurebrassard;
+    private final static int nbsecurebrassard = 30;
+    private static int mirrorsecurebrassard = nbsecurebrassard;
 
     public void AjoutSecureBrassard(){
 

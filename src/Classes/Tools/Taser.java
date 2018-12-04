@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class Taser {
 
-    private static int nbtaser = 5;
-    private int mirrortaser = nbtaser;
+    private final static int nbtaser = 5;
+    private static int mirrortaser = nbtaser;
 
     public void AjoutTaser(){
 

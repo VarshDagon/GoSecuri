@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class Chemises {
 
-    private static int nbchemise = 30;
-    private int mirrorchemise = nbchemise;
+    private final static int nbchemise = 30;
+    private static int mirrorchemise = nbchemise;
 
     public void AjoutChemises(){
 

@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class Blouson {
 
-    private static int nbblouson = 30;
-    private int mirrorblouson = nbblouson;
+    private final static int nbblouson = 30;
+    private static int mirrorblouson = nbblouson;
 
     public void AjoutBlouson(){
 

@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class Kevlar {
 
-    private static int nbkevlar = 12;
-    private int mirrorkevlar = nbkevlar;
+    private final static int nbkevlar = 12;
+    private static int mirrorkevlar = nbkevlar;
 
     public void AjoutKevlar(){
 

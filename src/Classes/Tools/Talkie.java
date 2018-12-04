@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class Talkie {
 
-    private static int nbtalkie = 20;
-    private int mirrortalkie = nbtalkie;
+    private final static int nbtalkie = 20;
+    private static int mirrortalkie = nbtalkie;
 
     public void AjoutTalkie(){
 

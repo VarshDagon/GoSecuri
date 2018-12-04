@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class Windcoat {
 
-    private static int nbwindcoat = 30;
-    private int mirrorwindcoat = nbwindcoat;
+    private final static int nbwindcoat = 30;
+    private static int mirrorwindcoat = nbwindcoat;
 
     public void AjoutWindCoat(){
 

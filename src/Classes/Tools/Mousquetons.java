@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class Mousquetons {
 
-    private static int nbmousqueton = 15;
-    private int mirrormousqueton = nbmousqueton;
+    private final static int nbmousqueton = 15;
+    private static int mirrormousqueton = nbmousqueton;
 
     public void AjoutMousqueton(){
 

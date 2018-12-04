@@ -2,8 +2,8 @@ package Classes.Tools;
 
 public class MetalDetector {
 
-    private static int nbmetauxdetector = 25;
-    private int mirrormetauxdetector = nbmetauxdetector;
+    private final static int nbmetauxdetector = 25;
+    private static int mirrormetauxdetector = nbmetauxdetector;
 
     public void AjoutMetauxDetector(){
 
