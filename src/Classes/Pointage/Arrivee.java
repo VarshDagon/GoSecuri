@@ -1,9 +1,8 @@
 package Classes.Pointage;
 
-import Classes.Inventory;
 import Classes.Tools.*;
 
-public class Arrivee extends Inventory {
+public class Arrivee {
 
     void compteur (boolean boolmousquetons,boolean boolgantinter,boolean boolceintureTactiques,boolean boolmetauxdetector,boolean boolsecureBrassards,
                    boolean boolflashlight,boolean boolbandeaux,boolean boolkevlar,boolean boolchemises,boolean boolblousons,boolean boolwindcoat,
